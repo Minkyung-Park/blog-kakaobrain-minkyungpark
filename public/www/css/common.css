@@ -19,5 +19,8 @@ body {
 
   font-variation-settings: "slnt" 0;
 }
+.br-20 {
+  border-radius: 20px;
+}
 .wrap {
 }
