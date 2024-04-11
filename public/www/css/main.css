@@ -281,15 +281,3 @@
     height: 266px;
   }
 }
-
-@media all and (max-width: 1024px) {
-  .main-bottom-cards {
-    width: 100%;
-    max-width: 100%;
-  }
-  .card-link {
-    width: 240px;
-    height: 266px;
-  }
-  /* 이 부분 다시 확인해보기... 놓친듯? */
-}
