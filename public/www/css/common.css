@@ -9,8 +9,15 @@
   /* 옵션 */
   /* outline-style: none; */
 }
-html {
+a {
+  text-decoration: none;
+  color: #000;
 }
+html {
+  overflow-x: hidden;
+}
+/* 스크롤바 안생기게 함 이거 무조건 해라 */
+
 body {
   font-family: "Inter", "Noto Sans KR", sans-serif;
   font-optical-sizing: auto;
@@ -22,5 +29,32 @@ body {
 .br-20 {
   border-radius: 20px;
 }
+
+.bt-wrap {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  margin-bottom: 60px;
+}
+.bt-more {
+  display: block;
+  padding: 11px 20px;
+  line-height: 20px;
+  border: 1px solid #000;
+
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 700;
+
+  transition: all 0.1s ease-in;
+}
+
+.bt-more:hover {
+  background: #000;
+  color: #fff;
+}
+
 .wrap {
 }
