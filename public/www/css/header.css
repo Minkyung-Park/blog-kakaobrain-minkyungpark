@@ -14,9 +14,23 @@
   height: 22px;
   margin-right: 5px;
 }
-.header-logo-slide img {
+.header-logo-slide {
   width: 68px;
   height: 31px;
+}
+
+.swlogo {
+  width: 100%;
+  height: 100%;
+}
+
+.swlogo .swiper-slide {
+  background: #fff;
+}
+/* pmg라서 배경색 흰색을 줌 */
+
+.header-logo-slide img {
+  width: 100%;
 }
 .navi-list {
   display: flex;
