@@ -220,6 +220,13 @@
   background: #031efb url("../images/1pc.png") no-repeat center;
   background-size: 100%;
 }
+
+.cardslide {
+  width: 100%;
+  height: 100%;
+  overflow: visible !important;
+}
+
 .main-bottom-cards {
   width: 25.64%;
   max-width: 300px;
@@ -305,16 +312,21 @@
   /* 
   760/1024 * 100 = 74.21vw;  max-height:760px
   */
-  .main-bottom-cards {
-    width: 100%;
-    max-width: 100%;
-  }
 }
 /* 메인 버텀 리스트에 100퍼센트를 줘서 줄내림을 위해서 flex-wrap: wrap해주는 거임 */
 
+/* 반응형 */
 @media all and (max-width: 1024px) {
+  .main-bottom-cards {
+    width: 1024px;
+    max-width: 1024px;
+  }
+
   .card-link {
     width: 240px;
     height: 266px;
+  }
+  .cardslide .swiper-wrapper {
+    display: flex;
   }
 }
