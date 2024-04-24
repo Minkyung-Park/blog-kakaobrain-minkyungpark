@@ -80,6 +80,17 @@
   background-size: contain;
 }
 
+/* 모바일 메뉴 관련 */
+/* .mb-header {
+  position: fixed;
+  left: 0;
+  top: 70px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 999;
+} */
+
 /* 반응형 */
 @media all and (max-width: 1024px) {
   .navi-list {

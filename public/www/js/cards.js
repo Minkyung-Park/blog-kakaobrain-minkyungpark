@@ -54,9 +54,9 @@ window.addEventListener("load", function () {
 
         // console.log(tag);
         cardsTags += tag;
-        cardsWhere.innerHTML = cardsTags;
       });
       //   console.log(cardsTags);
+      cardsWhere.innerHTML = cardsTags;
       makeCardSlide();
     })
     .catch((error) => {
