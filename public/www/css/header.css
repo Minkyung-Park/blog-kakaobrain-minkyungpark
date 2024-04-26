@@ -1,18 +1,22 @@
 .header {
   position: fixed;
-  display: block;
-  left: 0;
   top: 0;
-  z-index: 999999;
+  left: 0;
   /* z-index -> 맨 위로 오게하기 */
 
   width: 100%;
   height: 70px;
-  background-color: #ffffff;
+  display: block;
   border-bottom: 1px solid #fff;
+  z-index: 999999;
+  background-color: #ffffff;
 }
 .line-active {
   border-bottom: 1px solid #e6e5e6 !important;
+}
+
+.header .inner {
+  height: 70px;
 }
 
 .header-logo-link {
@@ -44,23 +48,21 @@
 }
 .navi-list {
   display: flex;
-  align-items: center;
   gap: 30px;
-}
-.navi-list li {
+  align-items: center;
 }
 .navi-list li a {
-  text-decoration: none;
-  color: #1e1e1e;
   font-weight: 700;
+  color: #1e1e1e;
+  text-decoration: none;
 }
 .navi-list li a:hover {
   color: #1f24ff;
 }
 .navi-search a {
-  display: block;
   width: 24px;
   height: 24px;
+  display: block;
   background: url("../images/icon/icon-search.png") no-repeat center;
   background-size: contain;
 }
@@ -73,9 +75,9 @@
   display: none;
 }
 .mobile-menu a {
-  display: block;
   width: 24px;
   height: 24px;
+  display: block;
   background: url("../images/icon/icon-hbr.png") no-repeat center;
   background-size: contain;
 }
@@ -87,15 +89,15 @@
 /* 모바일 메뉴 관련 */
 /* 모바일 메뉴 : 배경 */
 .mb-header-bg {
-  display: none;
-
-  z-index: 9999;
   position: fixed;
-  left: 0;
   top: 70px;
+  left: 0;
 
   width: 100%;
   height: 100%;
+  display: none;
+
+  z-index: 9999;
 
   background: rgba(0, 0, 0, 0.7);
 }
@@ -106,18 +108,18 @@
 
 /* 모바일 메뉴 : 내용 */
 .mb-header-menu {
+  position: fixed;
+  top: 69px;
+  left: 0;
+  width: 100%;
   height: 0;
   overflow: hidden;
-  transition: height 0.2s ease-in;
-  width: 100%;
 
   z-index: 9999999;
-  position: fixed;
-  left: 0;
-  top: 69px;
   /* top: calc(70px - 1px), top에 97px 준 이유는 가는 선 가리기 위해서 */
 
   background: rgba(255, 255, 255, 1);
+  transition: height 0.2s ease-in;
 }
 
 .mb-header-menu-show {
@@ -125,8 +127,8 @@
 }
 
 .mb-header-menu .inner {
-  display: block;
   height: auto !important;
+  display: block;
 }
 
 .mb-nav {

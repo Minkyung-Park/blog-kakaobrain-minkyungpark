@@ -3,27 +3,27 @@
 }
 /* common에 있는 inner의 높이가 70을 무시하기 위해서 오토줌 */
 .footer-top {
-  background: #1e1e1e;
   padding: 30px 0;
+  background: #1e1e1e;
 }
 .footer-logo {
-  display: block;
   width: 121px;
   height: 20px;
+  display: block;
   margin-bottom: 30px;
 }
 .footer-logo img {
   width: 100%;
 }
 .footer-top-info-dese {
-  color: #999;
-  font-size: 14px;
   margin-bottom: 30px;
+  font-size: 14px;
   line-height: 20px;
+  color: #999;
 }
 .bt-orange {
-  display: inline-block;
   bottom: 1px solid #fec62c !important;
+  display: inline-block;
   background: #fec62c !important;
   color: #1e1e1e !important;
 }
@@ -35,10 +35,10 @@
   width: 50%;
 }
 .footer-top-sitemap dl dt {
+  margin-bottom: 30px;
+  font-size: 16px;
   font-weight: 700;
   color: #fff;
-  font-size: 16px;
-  margin-bottom: 30px;
 }
 
 .footer-top-sitemap dl dd {
@@ -47,10 +47,10 @@
 
 .footer-top-sitemap a {
   display: inline-block;
+  font-size: 14px;
+  color: #999;
 
   white-space: nowrap;
-  color: #999;
-  font-size: 14px;
 }
 /* 언더라인이 진짜 딱 글자 부분에만 생기기 위해서는 inline-block을 줘야함 */
 
@@ -58,23 +58,21 @@
   text-decoration: underline;
 }
 .footer-bottom {
-  background: #191919;
   padding: 30px 0;
+  background: #191919;
 }
 .copy {
-  color: #666;
   font-size: 14px;
-}
-.footer-bottom-sns {
+  color: #666;
 }
 .sns-list {
   display: flex;
-  align-items: center;
   gap: 20px;
+  align-items: center;
 }
 .sns-list a {
-  color: #807f80;
   font-size: 24px;
+  color: #807f80;
 }
 .sns-list a:hover {
   color: #ccc;
