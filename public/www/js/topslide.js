@@ -18,9 +18,9 @@ window.addEventListener("load", function () {
       for (let i = 0; i < result.length; i++) {
         const data = result[i];
         // 템플릿 문법 필요 (html 생성)
-        const test = `<div class="swiper-slide">
+        const test = `<div className="swiper-slide">
           <a href="${data.url}" style="background:url('./images/${data.pic}') no-repeat center; background-size: cover;">
-            <p class="slide-title">
+            <p className="slide-title">
               ${data.title}
             </p>
           </a>

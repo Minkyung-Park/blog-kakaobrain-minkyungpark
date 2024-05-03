@@ -15,14 +15,14 @@ window.addEventListener("load", function () {
     // }
     // 추천합니다(조건은 대상이 "배열"인 경우)
     _result.forEach((item) => {
-      const tag = `<a href=${item.link} class="list-box">
-      <div class="list-box-img br-20" style="background: url('./images/${item.imgpath}') no-repeat center; background-size: cover"></div>
-      <div class="list-box-cate">
+      const tag = `<a href=${item.link} className="list-box">
+      <div className="list-box-img br-20" style="background: url('./images/${item.imgpath}') no-repeat center; background-size: cover"></div>
+      <div className="list-box-cate">
         <img src="./images/icon/${item.icon}" alt="${item.category}" />
         <span style="color:${item.txtcolor};">${item.category}</span>
       </div>
-      <p class="list-box-title">${item.title}</p>
-      <span class="list-box-day">${item.day}</span>
+      <p className="list-box-title">${item.title}</p>
+      <span className="list-box-day">${item.day}</span>
       </a>`;
       allTag = allTag + tag;
     }); // for (let i = 0; i < total; i++)이 어려우면 이거 써, 화살표 함수를 쓴다

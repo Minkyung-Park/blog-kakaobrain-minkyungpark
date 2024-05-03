@@ -43,11 +43,11 @@ window.addEventListener("load", function () {
       result.forEach((item) => {
         // console.log(item); 아이템들은 {} 객체 형태이다 -> 그래서 점(.)으로 접근
         const tag = `
-        <div class="swiper-slide">
-            <a href=${item.link} class="card-link br-20" style="background: url('./images/${item.imgpath}') no-repeat center;background-size: cover;" >
-            <div class="card-text">
-                <h3 class="card-title">${item.cardname}</h3>
-                <span class="card-count">${item.cardno}</span>
+        <div className="swiper-slide">
+            <a href=${item.link} className="card-link br-20" style="background: url('./images/${item.imgpath}') no-repeat center;background-size: cover;" >
+            <div className="card-text">
+                <h3 className="card-title">${item.cardname}</h3>
+                <span className="card-count">${item.cardno}</span>
             </div>
             </a>
         </div>`;

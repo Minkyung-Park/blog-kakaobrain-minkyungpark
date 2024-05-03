@@ -1,0 +1,5 @@
+.main .inner {
+  height: auto;
+  display: block;
+}
+/* display : block을 해줘야함, 아님 flex의 영향으로 서로 옆으로 붙음 */

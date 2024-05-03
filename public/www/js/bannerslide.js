@@ -10,9 +10,9 @@ window.addEventListener("load", function () {
       let tagS = "";
       for (let i = 0; i < result.length; i++) {
         const obj = result[i];
-        const temp = `<div class="swiper-slide">
+        const temp = `<div className="swiper-slide">
         <a href="${obj.url}" style="background: url('./images/${obj.pic}') no-repeat center; background-size:cover;">
-          <p class="slide-title">${obj.title}</p>
+          <p className="slide-title">${obj.title}</p>
         </a>
       </div>`;
         tagS = tagS + temp;
