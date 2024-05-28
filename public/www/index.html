@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
@@ -10,22 +10,23 @@
     />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/common.css" />
+
     <link rel="stylesheet" href="./css/popup.css" />
+
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/maintop.css" />
-    <link rel="stylesheet" href="./css/mainbotton.css" />
+    <link rel="stylesheet" href="./css/mainbottom.css" />
     <link rel="stylesheet" href="./css/footer.css" />
     <!-- Swiper -->
-    <!-- Link Swiper's CSS -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-    <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <!-- 외부 JS 파일 방식으로 진행 -->
+    <!-- 외부 js 파일 방식 으로 진행 -->
     <script src="./js/popup.js"></script>
+
     <script src="./js/header.js"></script>
     <script src="./js/logo.js"></script>
     <script src="./js/topslide.js"></script>
@@ -40,18 +41,16 @@
       <div class="popup-content">
         <p>
           <strong
-            >Hi there, This is a clone code<br />
-            I copied a website from "https://blog.kakaobrain.com"<br />
-            <br />
-            Please let me know if there's any problems <br />
-            <br />
-            Thank you</strong
+            >해당 사이트는 스터디용으로 제작되었으며, 모든 리소스의 저작권은
+            원저작자에게 있습니다.</strong
           >
+          <br />
+          * 본 사이트는 Chrome 에 최적화되어 있습니다. <br />
+          * 해당 사이트와 관련한 문제가 있으면 연락을 주시면 감사하겠습니다.
         </p>
         <button class="popup-close">창닫기</button>
       </div>
     </div>
-
     <!-- 전체 레이아웃 -->
     <div class="wrap">
       <!-- 상단 레이아웃 -->
@@ -137,10 +136,10 @@
               <li><a href="#">팀&크루</a></li>
               <li><a href="#">영입</a></li>
               <li class="navi-search">
-                <a href="#"> </a>
+                <a href="#"></a>
               </li>
               <li class="mobile-menu">
-                <a href="#"> </a>
+                <a href="#"></a>
               </li>
             </ul>
           </nav>
@@ -167,7 +166,6 @@
             <!-- 슬라이드 -->
             <div class="main-top-slide br-20">
               <!-- Start 상단 슬라이드 -->
-              <!-- Swiper -->
               <div class="swiper topslide">
                 <div class="swiper-wrapper">
                   <!-- 외부 데이터 연동 -->
@@ -175,7 +173,7 @@
                     <a href="#">
                       <p class="slide-title">
                         카카오브레인의<br />
-                        연구 문화
+                        연구문화
                       </p>
                     </a>
                   </div>
@@ -183,7 +181,7 @@
                     <a href="#">
                       <p class="slide-title">
                         카카오브레인의<br />
-                        연구 문화
+                        연구문화
                       </p>
                     </a>
                   </div> -->
@@ -192,7 +190,7 @@
               </div>
               <!-- End 상단 슬라이드 -->
             </div>
-            <!-- 타이틀 배너 슬라이드-->
+            <!-- 타이틀 배너 슬라이드 -->
             <div class="main-top-banner br-20">
               <!-- Start 타이틀 배너 -->
               <div class="swiper bannerslide">
@@ -206,7 +204,6 @@
                 </div>
                 <div class="swiper-pagination"></div>
               </div>
-
               <!-- End 타이틀 배너 -->
             </div>
           </div>
@@ -228,8 +225,9 @@
               <!-- 추천글 리스트 -->
               <div class="main-bottom-list-picks">
                 <h2>Editor’s Pick 🏃🏻‍♀️🏃‍♂️🏃🏽</h2>
-                <div class="list-wrap" id="crew"></div>
-                <!-- 외부 데이터 연동 -->
+                <div class="list-wrap" id="crew">
+                  <!-- 외부 데이터 연동 -->
+                </div>
                 <div class="bt-wrap">
                   <a href="#" class="bt-more">더보기</a>
                 </div>
@@ -240,14 +238,15 @@
             <div class="main-bottom-cards">
               <h2>폴더 📁</h2>
               <!-- 카드 슬라이드 -->
-              <div class="main-bottom-cards-slide" id="cards">
-                <!-- 외부 데이터 연동 -->
+              <div class="main-bottom-cards-slide">
+                <!-- 외부데이터 연동 -->
                 <div class="swiper cardslide">
                   <div class="swiper-wrapper">
                     <!-- 슬라이드들을 배치 -->
                   </div>
                 </div>
               </div>
+
               <div class="bt-wrap">
                 <a href="#" class="bt-more">전체보기</a>
               </div>
@@ -255,7 +254,6 @@
           </div>
         </div>
       </main>
-
       <!-- 하단 레이아웃 -->
       <footer class="footer">
         <!-- 하단 사이트 정보 및 사이트 맵 -->
@@ -269,10 +267,10 @@
                   alt="카카오브레인"
                 />
               </a>
-              <p class="footer-top-info-dese">
+              <p class="footer-top-info-desc">
                 카카오브레인의 혁신은 모든 크루의 물음에서 시작합니다. <br />
                 AI 없이는 상상할 수 없는 세상을 만들기 위해선 생각하지 못한 많은
-                물음이 필요합니다. <br />
+                물음이 필요합니다.<br />
                 세상을 변화시킬 수 있는 새로운 물음을 던질 크루를 기다립니다.
               </p>
               <a href="#" class="bt-more bt-orange">지원하러 가기</a>
@@ -288,6 +286,7 @@
                 <dd><a href="#">개인정보처리방침</a></dd>
                 <dd><a href="#">오시는 길</a></dd>
               </dl>
+
               <dl>
                 <dt>문의</dt>
                 <dd><a href="#">영입</a></dd>

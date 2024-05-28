@@ -1,10 +1,13 @@
+.footer {
+}
 .footer .inner {
   height: auto;
 }
-/* common에 있는 inner의 높이가 70을 무시하기 위해서 오토줌 */
 .footer-top {
   padding: 30px 0;
   background: #1e1e1e;
+}
+.footer-top-info {
 }
 .footer-logo {
   width: 121px;
@@ -14,71 +17,57 @@
 }
 .footer-logo img {
   width: 100%;
+  height: auto;
 }
-.footer-top-info-dese {
+
+.footer-top-info-desc {
   margin-bottom: 30px;
   font-size: 14px;
+  font-weight: 400;
   line-height: 20px;
-  color: #999;
+  color: #999999;
 }
+
 .bt-orange {
-  bottom: 1px solid #fec62c !important;
   display: inline-block;
+  border: 1px solid #fec62c !important;
   background: #fec62c !important;
   color: #1e1e1e !important;
 }
+
 .footer-top-sitemap {
   display: flex;
   gap: 80px;
 }
+
 .footer-top-sitemap dl {
   width: 50%;
 }
+
 .footer-top-sitemap dl dt {
   margin-bottom: 30px;
   font-size: 16px;
   font-weight: 700;
-  color: #fff;
+  color: #ffffff;
 }
 
 .footer-top-sitemap dl dd {
   margin-bottom: 30px;
 }
 
-.footer-top-sitemap a {
+.footer-top-sitemap dl dd a {
   display: inline-block;
   font-size: 14px;
-  color: #999;
-
+  font-weight: 400;
+  color: #999999;
   white-space: nowrap;
 }
-/* 언더라인이 진짜 딱 글자 부분에만 생기기 위해서는 inline-block을 줘야함 */
 
-.footer-top-sitemap a:hover {
+.footer-top-sitemap dl dd a:hover {
   text-decoration: underline;
 }
-.footer-bottom {
-  padding: 30px 0;
-  background: #191919;
-}
-.copy {
-  font-size: 14px;
-  color: #666;
-}
-.sns-list {
-  display: flex;
-  gap: 20px;
-  align-items: center;
-}
-.sns-list a {
-  font-size: 24px;
-  color: #807f80;
-}
-.sns-list a:hover {
-  color: #ccc;
-}
+
 .rot-45 {
-  font-weight: 700;
   transform: rotate(45deg);
 }
 
@@ -93,6 +82,33 @@
   .footer-top-sitemap {
     width: 100%;
   }
+}
+
+.footer-bottom {
+  padding: 30px 0;
+  background: #191919;
+}
+.footer-bottom-copyright {
+}
+.copy {
+  font-size: 14px;
+  color: #666666;
+}
+.footer-bottom-sns {
+}
+.sns-list {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.sns-list li {
+}
+.sns-list li a {
+  font-size: 24px;
+  color: #807f80;
+}
+.sns-list li a:hover {
+  color: #cccccc;
 }
 
 @media all and (max-width: 1024px) {
